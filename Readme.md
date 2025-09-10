@@ -1,5 +1,6 @@
 # 혼공자 확인 문제
-## [용어정리]()
+
+## [용어정리](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/Terminology.md)
 
 ## 01-01-01
 
