@@ -64,6 +64,14 @@ int score2;
 sum = score1 + score2; ----->error : 위에서 score2에 대한 결과값(초기화)를 하지 않아 컴파일 에러 발생
 
 ## 02-01-04
+- 컴파일 에러 찾기  
+int v1 = 0;  
+if (true) {
+  int v2 = 0;  
+  if (true) {
+    
+  }
+}
 
 
 
