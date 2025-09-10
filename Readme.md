@@ -66,13 +66,17 @@ sum = score1 + score2; ----->error : 위에서 score2에 대한 결과값(초기
 ## 02-01-04
 - 컴파일 에러 찾기  
 int v1 = 0;  
-if (true) {
+if (true) {  
   int v2 = 0;  
-  if (true) {
-    
-  }
+  if (true) {  
+    int v3 = 0;  
+    v1 = 1;  
+    v2 = 1;  
+    v3 = 1;  
+  }  
+  v1 = v2 + v3
 }
-
+System.out.println(v1);
 
 
 

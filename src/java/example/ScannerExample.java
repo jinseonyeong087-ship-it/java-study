@@ -8,17 +8,17 @@ public class ScannerExample {
         // 2. 문자열 입력
         System.out.print("이름을 입력하세요: ");
         String name = sc.nextLine();
-        System.out.println("이름: " + name);
+        // System.out.println("이름: " + name);
 
         // 3. 정수 입력
         System.out.print("나이를 입력하세요: ");
         int age = sc.nextInt();
-        System.out.println("나이: " + age);
+        // System.out.println("나이: " + age);
 
         // 4. 실수 입력
         System.out.print("키를 입력하세요: ");
         double height = sc.nextDouble();
-        System.out.println("키: " + height);
+        // System.out.println("키: " + height);
 
         // 출력
         System.out.println("\n[입력 결과]");
