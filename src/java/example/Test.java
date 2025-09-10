@@ -20,5 +20,7 @@ public class Test {
         }
         int v3 = v1 + v2 + 5;
         System.out.println("v1:" + v1 + ", v2:" + v2 + ", v3:" + v3);
+
+        double value = 2e-350;
     }
 }
