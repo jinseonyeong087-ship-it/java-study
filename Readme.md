@@ -57,14 +57,14 @@
 - 변수 이름 가능 : 첫 글자가 문자, $, _ (첫 글자가 문자더라도 예약어는 사용 불가 - class, public, static, void, int 등)
 
 ## 02-01-03
-- 컴파일 에러 찾기  
+- [컴파일 에러 찾기](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020103.java)  
 int sum;  
 int score = 0;  
 int score2;  
 sum = score1 + score2; ----->error : 위에서 score2에 대한 결과값(초기화)를 하지 않아 컴파일 에러 발생
 
 ## 02-01-04
-- [컴파일 에러 찾기](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020103.java)  
+- [컴파일 에러 찾기]  
 int v1 = 0;  
 if (true) {  
   int v2 = 0;  
@@ -74,8 +74,8 @@ if (true) {
     v2 = 1;  
     v3 = 1;  
   }  
-  v1 = v2 + v3
-}
+  v1 = v2 + v3;     ------->error : 지역 변수 v3는 안쪽 if 블록에서만 유효  
+}  
 System.out.println(v1);
 
 
