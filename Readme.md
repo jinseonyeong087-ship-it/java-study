@@ -80,7 +80,7 @@ System.out.println(v1);
 
 ## 02-02-01
 - 자바의 기본 타입  
-![alt text](image.png)
+![alt text](img/image.png)
 
 ## 02-02-02
 - 변수에 값을 저장하는 코드  
@@ -89,8 +89,8 @@ System.out.println(v1);
 
 ## 02-02-03
 - 코드 실행 시 콘솔에 출력되는 내용  
-![alt text](image-1.png)  
-![alt text](image-2.png)
+![alt text](img/image-1.png)  
+![alt text](img/image-2.png)
 
 ## 02-02-04
 - 컴파일 에러 발생  
@@ -98,7 +98,23 @@ double value = 2e-350;   ------->error : 허용범위를 벗어남(double이 허
 
 ## 02-02-05
 - 코드 실행 시 콘솔에 출력되는 내용  
-![alt text](image-4.png)  
-![alt text](image-5.png)
+![alt text](img/image-4.png)  
+![alt text](img/image-5.png)
 
 ## 02-03-01
+- 기본 타입 자동 변환 허용 범위 (크기 순서)
+  - byte (1바이트, -128 ~ 127)
+  - short (2바이트, -32,768 ~ 32,767)
+  - char (2바이트, 0 ~ 65,535, 부호 없음)
+  - int (4바이트, 약 -21억 ~ 21억)
+  - long (8바이트, 매우 큰 정수 범위)
+  - float (4바이트, 부동소수점, 정밀도 약 7자리)
+  - double (8바이트, 부동소수점, 정밀도 약 15자리)
+
+- 변환 가능 경로  
+byte → short, char → int → long → float → double  
+
+**주의**   
+char와 short는 크기(2바이트)는 같지만 표현 방식이 달라서 바로 변환 불가. char → int → long → float → double로는 자동 변환이 가능
+
+## 02-03-02
