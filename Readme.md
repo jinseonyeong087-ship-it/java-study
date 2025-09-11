@@ -179,7 +179,7 @@ System.out.println(result);
 소수점 포함 문자열 → Double.parseDouble, Float.parseFloat 등
 
 ## 02-03-10
-[코드실행]()  
+[코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020310.java)  
 String str1 = 2 + 3 + "";  
 String str2 = 2 + "" + 3;  
 String str3 = "" + 2 + 3;  
@@ -192,3 +192,12 @@ System.out.println(str3);
 
 숫자 + 숫자 → 덧셈    
 문자열 + (숫자든 뭐든) → 문자열 결합
+
+## 02-03-11
+[타입변환]  
+byte value1 = Byte.parseByte("10");  
+int value2 = Integer.parseInt("1000");  
+float value3 = Float.parseFloat("20.5");  
+double value4 = Double.parseDouble("3.14159");  
+- 문자열을 기본 타입으로 변환. 변환 시 변수 중복 선언으로 인한 에러로 변수 변경
+
