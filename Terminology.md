@@ -17,3 +17,7 @@ Java 언어에서 이미 특정 의미/용도로 정해진 단어 (class, public
 
 ## char
 자바(Java)에서 문자 하나를 저장하는 **기본 타입(primitive type)**이에요. 그런데 사실 단순히 "문자"만 저장하는 게 아니라 유니코드(Unicode) 코드값을 저장
+
+## String.format
+문자열을 만들 때 **특정 형식(format)**을 지정하고, 그 안에 변수 값을 끼워 넣어주는 기능
+![alt text](image-6.png)
