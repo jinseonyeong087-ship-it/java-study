@@ -159,7 +159,21 @@ System.out.println(result);
 출력 결과 : 2.5
 
 ## 02-03-08
-[연산]  
+[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020308.java)  
 double var1 = 3.5;  
 double var2 = 2.7;  
 int result = (int)(var1 + var2);  
+출력 결과 : 6 
+
+## 02-03-09
+[연산]  
+long var1 = 2L;  
+float var2 = 1.8f;  
+double var3 = 2.5;  
+String var4 = "3.9";  
+int result = (int)(var1 + var2 + var3) + (int)Double.parseDouble(var4);  
+System.out.println(result);   
+출력 결과 : 9
+
+정수 형태 문자열 → Integer.parseInt, Long.parseLong, Short.parseShort 등  
+소수점 포함 문자열 → Double.parseDouble, Float.parseFloat 등
