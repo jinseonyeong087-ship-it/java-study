@@ -202,7 +202,7 @@ double value4 = Double.parseDouble("3.14159");
 - 문자열을 기본 타입으로 변환. 변환 시 변수 중복 선언으로 인한 에러로 변수 변경
 
 ## 02-04-01
-[코드작성]()  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020401.java)  
 String name = "김자바";  
 int age = 25;  
 String tel1 ="010", tel2 = "123", tel3 = "4567";  
@@ -213,7 +213,7 @@ System.out.printf("\n전화: %s-%s-%s", tel1, tel2, tel3);
 -  형식 문자열을 사용한다면 System.out.printf 사용
 
 ## 02-04-02
-[코드작성]()  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020402.java)  
 Scanner scanner = new Scanner(System.in);  
 System.out.print("첫 번째 수: ");  
 String strNum1 = scanner.nextLine();  
@@ -225,4 +225,8 @@ int result = num1 + num2;
 System.out.println("덧셈 결과: " + result);  
 
 - 숫자로 계산하려면 Integer.parseInt 로 문자열 → int 변환
+
+## 02-04-03
+[코드작성]()
+![alt text](img/image-10.png)
 
