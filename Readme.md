@@ -166,7 +166,7 @@ int result = (int)(var1 + var2);
 출력 결과 : 6 
 
 ## 02-03-09
-[연산]  
+[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020309.java)   
 long var1 = 2L;  
 float var2 = 1.8f;  
 double var3 = 2.5;  
@@ -177,3 +177,18 @@ System.out.println(result);
 
 정수 형태 문자열 → Integer.parseInt, Long.parseLong, Short.parseShort 등  
 소수점 포함 문자열 → Double.parseDouble, Float.parseFloat 등
+
+## 02-03-10
+[코드실행]()  
+String str1 = 2 + 3 + "";  
+String str2 = 2 + "" + 3;  
+String str3 = "" + 2 + 3;  
+
+System.out.println(str1);  
+System.out.println(str2);  
+System.out.println(str3);  
+
+출력 결과 : 5, 23, 23  
+
+숫자 + 숫자 → 덧셈    
+문자열 + (숫자든 뭐든) → 문자열 결합
