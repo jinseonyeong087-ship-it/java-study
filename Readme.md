@@ -118,3 +118,7 @@ byte → short, char → int → long → float → double
 char와 short는 크기(2바이트)는 같지만 표현 방식이 달라서 바로 변환 불가. char → int → long → float → double로는 자동 변환이 가능
 
 ## 02-03-02
+- 강제 타입 변환
+![alt text](img/image-7.png)
+
+- String 은 기본 타입(primitive type) 이 아니고, 참조 타입(reference type, 클래스).자동/강제 변환이 안 됨. valueOf(), parseXXX() 같은 메소드로 변환
