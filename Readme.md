@@ -128,10 +128,17 @@ char와 short는 크기(2바이트)는 같지만 표현 방식이 달라서 바�
   - 자바의 산술 연산 규칙 : (자바는 산술 연산(+,-,*,/ 등) 을 할 때, 피연산자가 int 보다 작은 타입이면 자동으로 int로 변환) byte, short, char → 연산 시 int로 변환. byte + byte 결과는 int 타입
 
 ## 02-03-04
-- 컴파일 에러 찾기  
+- [컴파일 에러 찾기](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020304.java)  
 short s1 = 1;  
 short s2 = 2;  
 int i1 = 3;  
 int i2 = 4;  
-short result = s1 + s2;   ------>error : short는 연산시 int로 변환
-int result = il + i2;
+short result = s1 + s2;   ------> error : short는 연산시 int로 변환  
+int result = il + i2;     ------> 위에서 int로 변환시 변수 중복 선언이 되어 얘도 변경
+
+## 02-03-05
+- [컴파일 에러 찾기]  
+char c1 = 'a';  
+char c2 = c1 + 1;         ------->error : char는 연산시 int로 변환  
+System.out.println(c2);  
+
