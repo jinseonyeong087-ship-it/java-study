@@ -151,10 +151,15 @@ System.out.println(result);
 출력 결과 : 2
 
 ## 02-03-07
-[연산]  
+[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020307.java)  
 int x = 5;  
 int y = 2;  
 double result = (int)x / (double)y;  
 System.out.println(result);  
 출력 결과 : 2.5
 
+## 02-03-08
+[연산]  
+double var1 = 3.5;  
+double var2 = 2.7;  
+int result = (int)(var1 + var2);  
