@@ -143,10 +143,18 @@ char c2 = c1 + 1;         ------->error : char는 연산시 int로 변환
 System.out.println(c2);  
 
 ## 02-03-06
-[연산]
+[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020306.java)  
 int x = 5;  
 int y = 2;  
 int result = x / y;  
 System.out.println(result);    
 출력 결과 : 2
+
+## 02-03-07
+[연산]  
+int x = 5;  
+int y = 2;  
+double result = (int)x / (double)y;  
+System.out.println(result);  
+출력 결과 : 2.5
 
