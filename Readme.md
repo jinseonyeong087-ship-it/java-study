@@ -87,7 +87,7 @@ System.out.println(v1);
   -char var = 65;  
   -double var = 100.0;
 
-## 02-02-03
+## [02-02-03](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020203.java)
 - 코드 실행 시 콘솔에 출력되는 내용  
 ![alt text](img/image-1.png)  
 ![alt text](img/image-2.png)
@@ -96,7 +96,7 @@ System.out.println(v1);
 - 컴파일 에러 발생  
 double value = 2e-350;   ------->error : 허용범위를 벗어남(double이 허용하는 소수점 이하 자리는 15자리 정도)
 
-## 02-02-05
+## [02-02-05](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020205.java)
 - 코드 실행 시 콘솔에 출력되는 내용  
 ![alt text](img/image-4.png)  
 ![alt text](img/image-5.png)
@@ -122,3 +122,16 @@ char와 short는 크기(2바이트)는 같지만 표현 방식이 달라서 바�
 ![alt text](img/image-7.png)
 
 - String 은 기본 타입(primitive type) 이 아니고, 참조 타입(reference type, 클래스).자동/강제 변환이 안 됨. valueOf(), parseXXX() 같은 메소드로 변환
+
+## 02-03-03
+- 연산식에서의 타입 변환  
+  - 자바의 산술 연산 규칙 : (자바는 산술 연산(+,-,*,/ 등) 을 할 때, 피연산자가 int 보다 작은 타입이면 자동으로 int로 변환) byte, short, char → 연산 시 int로 변환. byte + byte 결과는 int 타입
+
+## 02-03-04
+- 컴파일 에러 찾기  
+short s1 = 1;  
+short s2 = 2;  
+int i1 = 3;  
+int i2 = 4;  
+short result = s1 + s2;   ------>error : short는 연산시 int로 변환
+int result = il + i2;
