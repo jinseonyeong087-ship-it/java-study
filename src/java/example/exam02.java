@@ -12,5 +12,13 @@ public class exam02 {
         );
 
         System.out.println(message);
+
+        String str = "10000000";
+        int val = Integer.parseInt(str,10);
+
+       System.out.println(val);
+
+       String str1 = String.valueOf(20000);
+       System.out.println(str1.length());
     }
 }
