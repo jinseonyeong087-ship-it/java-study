@@ -194,10 +194,35 @@ System.out.println(str3);
 문자열 + (숫자든 뭐든) → 문자열 결합
 
 ## 02-03-11
-[타입변환]  
+[타입변환](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020311.java)   
 byte value1 = Byte.parseByte("10");  
 int value2 = Integer.parseInt("1000");  
 float value3 = Float.parseFloat("20.5");  
 double value4 = Double.parseDouble("3.14159");  
 - 문자열을 기본 타입으로 변환. 변환 시 변수 중복 선언으로 인한 에러로 변수 변경
+
+## 02-04-01
+[코드작성]()  
+String name = "김자바";  
+int age = 25;  
+String tel1 ="010", tel2 = "123", tel3 = "4567";  
+System.out.println("이름: " + name);  
+System.out.print("나이: " + age);  
+System.out.printf("\n전화: %s-%s-%s", tel1, tel2, tel3);  
+
+-  형식 문자열을 사용한다면 System.out.printf 사용
+
+## 02-04-02
+[코드작성]()  
+Scanner scanner = new Scanner(System.in);  
+System.out.print("첫 번째 수: ");  
+String strNum1 = scanner.nextLine();  
+System.out.print("두 번째 수: ");  
+String strNum2 = scanner.nextLine();  
+int num1 = Integer.parseInt(strNum1);  
+int num2 = Integer.parseInt(strNum2);  
+int result = num1 + num2;  
+System.out.println("덧셈 결과: " + result);  
+
+- 숫자로 계산하려면 Integer.parseInt 로 문자열 → int 변환
 
