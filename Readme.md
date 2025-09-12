@@ -281,11 +281,18 @@ int pencilsLeft = (pencils % student);
 System.out.println(pencilsLeft);  
 
 ## 03-02-05
-[출력값오류]()  
+[출력값오류](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030205.java)  
 int var1 = 5;  
 int var2 = 2;  
 double var3 = var1 / var2;  
 int var4 = (int) (var3 * var2);  
 System.out.println(var4);  
 출력결과 : 4
-- var1과 var2가 둘 다 정수형이어서 var1 / var2는 정수. 수정하려면 var1 또는 var2를 더블로 형변환하여 소수점 값을 계산
+- var1과 var2가 둘 다 정수형이어서 var1 / var2는 정수.  
+  수정하려면 var1 또는 var2를 더블로 형변환하여 소수점 값을 계산
+
+## 03-02-06
+[코드작성]()  
+int value = 356;  
+System.out.println((value/100)*100);  
+출력결과 : 300
