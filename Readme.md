@@ -298,7 +298,7 @@ System.out.println((value/100)*100);
 출력결과 : 300
 
 ## 03-02-07
-[출력값오류]()  
+[출력값오류](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030207.java)  
 public static void main(String[] args) {  
 float var1 = 10f;  
 float var2 = var1 / 100;  
@@ -309,3 +309,12 @@ System.out.println("10%가 아닙니다.");}
 }
 출력결과 : 10%가 아닙니다.
 - if (var2 == 0.1f)로 같은 타입끼리 비교해야 10%입니다.의 출력 결과가 나옴.
+
+
+## 03-02-08
+[코드작성]()   
+int lengthTop = 5;  
+int lengBottom = 10;  
+int height = 7;  
+double area = ((double)(lengthTop+lengBottom)*height)/2;  
+System.out.println(area);   
