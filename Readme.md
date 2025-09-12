@@ -325,7 +325,7 @@ System.out.println(area);
 ![alt text](img/image-12.png)
 
 ## 03-02-10
-[코드수정]()  
+[코드수정](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030210.java)  
 int var1 = 10;  
 int var2 = 3;  
 int var3 = 14;  
