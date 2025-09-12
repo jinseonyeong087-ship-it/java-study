@@ -261,9 +261,21 @@ System.out.println(z);
 출력결과 : 31 
 
 ## 03-02-03
-[코드실행]()  
+[코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030203.java)  
 boolean stop = false;  
 while (!stop) {  
 System.out.println("stop");  
 stop = true;}  
- 
+
+## 03-02-04
+[코드작성]()  
+int pencils = 534;
+int student = 30;
+
+//학생 1명이 가지는 연필 개수
+int pencilsPerStudent = (pencils / student);
+System.out.println(pencilsPerStudent);
+
+//남은 연필 개수
+int pencilsLeft = (pencils % student);
+System.out.println(pencilsLeft);
