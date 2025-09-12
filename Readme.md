@@ -312,9 +312,19 @@ System.out.println("10%가 아닙니다.");}
 
 
 ## 03-02-08
-[코드작성]()   
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030208.java)   
 int lengthTop = 5;  
 int lengBottom = 10;  
 int height = 7;  
 double area = ((double)(lengthTop+lengBottom)*height)/2;  
 System.out.println(area);   
+
+## 03-02-09
+[코드작성]()  
+![alt text](img/image-11.png)  
+![alt text](img/image-12.png)
+
+## 03-02-10
+[코드작성]()  
+![alt text](img/image-13.png)   
+![alt text](img/image-14.png)  
