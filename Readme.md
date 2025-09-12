@@ -253,9 +253,17 @@ System.out.println(result);
 
 
 ## 03-02-02
-[코드실행]()  
-int x = 10;
-int y = 20;
-int z = (++x) + (y--);
-System.out.println(z);
+[코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030202.java)  
+int x = 10;  
+int y = 20;  
+int z = (++x) + (y--);  
+System.out.println(z);  
 출력결과 : 31 
+
+## 03-02-03
+[코드실행]()  
+boolean stop = false;  
+while (!stop) {  
+System.out.println("stop");  
+stop = true;}  
+ 
