@@ -292,7 +292,20 @@ System.out.println(var4);
   수정하려면 var1 또는 var2를 더블로 형변환하여 소수점 값을 계산
 
 ## 03-02-06
-[코드작성]()  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030206.java)  
 int value = 356;  
 System.out.println((value/100)*100);  
 출력결과 : 300
+
+## 03-02-07
+[출력값오류]()  
+public static void main(String[] args) {  
+float var1 = 10f;  
+float var2 = var1 / 100;  
+if(var2 == 0.1) {  
+System.out.println("10%입니다.");  
+} else {  
+System.out.println("10%가 아닙니다.");}  
+}
+출력결과 : 10%가 아닙니다.
+- if (var2 == 0.1f)로 같은 타입끼리 비교해야 10%입니다.의 출력 결과가 나옴.
