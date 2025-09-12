@@ -325,11 +325,17 @@ System.out.println(area);
 ![alt text](img/image-12.png)
 
 ## 03-02-10
-[코드수정]
+[코드수정]()  
+int var1 = 10;  
+int var2 = 3;  
+int var3 = 14;  
+double var4 = var1 * var1 * var2 + "." + var3;  
+System.out.println("원의 넓이: " + var4);  
+- 
 
 ## 03-02-11
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030210.java)  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030211.java)  
 ![alt text](img/image-13.png)   
 ![alt text](img/image-14.png)  
 
-## 03-02-11
+## 03-02-12
