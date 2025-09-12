@@ -268,14 +268,24 @@ System.out.println("stop");
 stop = true;}  
 
 ## 03-02-04
-[코드작성]()  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030204.java)  
 int pencils = 534;
 int student = 30;
 
-//학생 1명이 가지는 연필 개수
-int pencilsPerStudent = (pencils / student);
-System.out.println(pencilsPerStudent);
+//학생 1명이 가지는 연필 개수  
+int pencilsPerStudent = (pencils / student);  
+System.out.println(pencilsPerStudent);  
 
-//남은 연필 개수
-int pencilsLeft = (pencils % student);
-System.out.println(pencilsLeft);
+//남은 연필 개수  
+int pencilsLeft = (pencils % student);  
+System.out.println(pencilsLeft);  
+
+## 03-02-05
+[출력값오류]()  
+int var1 = 5;  
+int var2 = 2;  
+double var3 = var1 / var2;  
+int var4 = (int) (var3 * var2);  
+System.out.println(var4);  
+출력결과 : 4
+- var1과 var2가 둘 다 정수형이어서 var1 / var2는 정수. 수정하려면 var1 또는 var2를 더블로 형변환하여 소수점 값을 계산
