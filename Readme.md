@@ -245,8 +245,17 @@ System.out.println("덧셈 결과: " + result);
   - 산술(+, -, , /, %) > 비교(<, <=, >, >=, ==, !=) > 논리(&&, ||) > 대입(=) 순으로 우선시 됨. 산술이 먼저 계산되고 그 결과를 비교·논리에서 사용
 
 ## 03-02-01
-[컴파일에러]()  
+[컴파일에러](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030201.java)  
 byte b = 5;  
 b = -b;     --------->error : -(단항 음수) 연산은 정수 승격이 일어나서 byte 값이 int로 바뀜. 오른쪽은 int이고, 왼쪽은 byte → 좁히는 변환이라서 캐스트가 없으면 컴파일 오류  
 int result = 10 / b;  
 System.out.println(result);  
+
+
+## 03-02-02
+[코드실행]()  
+int x = 10;
+int y = 20;
+int z = (++x) + (y--);
+System.out.println(z);
+출력결과 : 31 
