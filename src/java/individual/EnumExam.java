@@ -32,8 +32,8 @@ public class EnumExam {
 
         System.out.println("오늘 요일: " + today);
 
-        if (today == WeekDay.MONDAY) {
-            System.out.println("월요일에는 자바 공부합니다.");
+        if (today == WeekDay.FRIDAY) {
+            System.out.println("자바 공부합니다.");
         } else {
             System.out.println("오늘은 놀아요");
         }
