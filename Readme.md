@@ -361,7 +361,7 @@ value = value * 10; ------> value *= 10;
 value = value / 10; ------> value /= 10;  
 
 ## 03-02-14
-[출력결과]()  
+[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030214.java)  
 int score = 85;  
 String result = (!(score>90)) ? "가" : "나";  
 System.out.println(result);  
@@ -369,3 +369,17 @@ System.out.println(result);
 - 점수가 90점보다 크지 않으면 true"  
   !(score > 90)이 true면 "가"를 선택  
   !(score > 90)이 false면 "나"를 선택
+
+## 04-01-01
+- 조건문의 종류 : if문, switch문
+
+## 04-01-02
+- if문
+  - if문은 조건식의 결과에 따라 실행 흐름을 달리할 수 있음.
+  - if문은 조건식이 true이면 블록을 실행하고 false이면 블록을 실행하지 않는다.
+  - if문의 블록 내부에는 또 다른 if문을 사용할 수 있다.
+
+## 04-01-03
+[출력결과]()  
+![alt text](img/image-22.png)  
+출력 결과 : 등급은 B 입니다.
