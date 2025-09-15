@@ -52,3 +52,23 @@ Java 언어에서 이미 특정 의미/용도로 정해진 단어 (class, public
 - 내용 비교는 항상 equals / equalsIgnoreCase.
 - null 가능 변수 비교는 "리터럴".equals(var) 또는 Objects.equals(a,b).
 - 반복 연결은 StringBuilder 사용.
+
+
+## 연산자
+- 산술 연산자 : 수학 계산을 할 때 사용  
+![alt text](img/image-16.png)
+
+- 대입 연산자 : 값을 변수에 넣을 때 사용  
+![alt text](img/image-17.png)
+
+- 비교 연산자 : 두 값을 비교할 때 사용 → 결과는 true / false  
+![alt text](img/image-18.png)  
+
+- 논리 연산자 : 조건식 여러 개를 묶을 때 사용  
+![alt text](img/image-19.png)
+
+- 증감 연산자 : 값을 1씩 증가/감소  
+![alt text](img/image-20.png) 
+
+- 비트 연산자 : 비트를 직접 다룰 때  
+![alt text](img/image-21.png)

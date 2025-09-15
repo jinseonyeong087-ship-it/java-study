@@ -342,7 +342,7 @@ System.out.println("원의 넓이: " + var4);
 ![alt text](img/image-14.png)  
 
 ## 03-02-12
-[출력결과]()  
+[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030212.java)  
 int x = 10;  
 int y = 5;  
 System.out.println((x>7) && (y<=5));  
@@ -351,3 +351,12 @@ System.out.println((x%3 == 2) || (y%2 != 1));
 
 - &&는 논리 AND 연산자 : 조건1 && 조건2 → 두 조건이 모두 참(true) 일 때만 전체 결과가 참
 - ||는 논리 OR 연산자 : 조건1 || 조건2 → 두 조건 중 하나라도 참(true) 이면 전체 결과가 참
+
+## 03-02-13
+[실행문변경]()   
+int value = 0;  
+value = value + 10; ------> value += 10;  
+value = value - 10; ------> value -= 10;  
+value = value * 10; ------> value *= 10;  
+value = value / 10; ------> value /= 10;  
+
