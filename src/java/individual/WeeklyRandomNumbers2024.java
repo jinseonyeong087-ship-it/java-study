@@ -15,8 +15,8 @@ public class WeeklyRandomNumbers2024 {
 
             // 주차별로 5개 뽑기
             while (picked.size() < numbersPerWeek) {
-                int num = rand.nextInt(99) + 1; // 1~99
-                picked.add(num);   // ← 중복이면 Set이 자동으로 무시
+                int num = rand.nextInt(45) + 1; // 1~99
+                picked.add(num);   // 중복이면 Set이 자동으로 무시
 
                 // frequency Map 업데이트
                 frequency.put(num, frequency.getOrDefault(num, 0) + 1);
@@ -29,18 +29,12 @@ public class WeeklyRandomNumbers2024 {
         List<Map.Entry<Integer, Integer>> sorted = new ArrayList<>(frequency.entrySet());
         sorted.sort((a, b) -> b.getValue().compareTo(a.getValue())); // 내림차순 정렬
 
-        // --- 최다 등장 번호 추출 ---
-        int maxCount = sorted.get(0).getValue();
-        List<Integer> mostFrequent = new ArrayList<>();
-        for (Map.Entry<Integer, Integer> entry : sorted) {
-            if (entry.getValue() == maxCount) {
-                mostFrequent.add(entry.getKey());
-            } else {
-                break; // maxCount보다 작아지면 종료
-            }
+        // --- 최다 등장 번호 5개 출력 ---
+        System.out.println("\n=== 가장 많이 나온 번호 TOP 5 ===");
+        for (int i = 0; i < Math.min(5, sorted.size()); i++) {
+            Map.Entry<Integer, Integer> entry = sorted.get(i);
+            System.out.printf("%d위: 번호 %d (등장 %d회)%n",
+                    i + 1, entry.getKey(), entry.getValue());
         }
-
-        System.out.println("\n=== 가장 많이 나온 번호 ===");
-        System.out.printf("%s (총 %d회 등장)\n", mostFrequent, maxCount);
     }
 }
