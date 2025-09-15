@@ -385,10 +385,18 @@ System.out.println(result);
 출력 결과 : 등급은 B 입니다.
 
 ## 04-01-04
-[출력결과]()  
+[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040104.java)  
 ![alt text](img/image-23.png)  
 출력 결과 :  
 어떤 혜택을 원하세요?  
 우수 회원 혜택을 받으실 수 있습니다.  
 일반 회원 혜택을 받으실 수 있습니다.  
 감사합니다.  
+- break가 없음으로 인해 두개의 값 출력
+
+## 04-02-01
+- 반복문의 종류 : for문, while문, do-while문
+
+## 04-02-02
+[코드작성]()  
+![alt text](img/image-24.png)
