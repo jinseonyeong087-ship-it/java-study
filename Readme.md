@@ -380,6 +380,15 @@ System.out.println(result);
   - if문의 블록 내부에는 또 다른 if문을 사용할 수 있다.
 
 ## 04-01-03
-[출력결과]()  
+[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040103.java)  
 ![alt text](img/image-22.png)  
 출력 결과 : 등급은 B 입니다.
+
+## 04-01-04
+[출력결과]()  
+![alt text](img/image-23.png)  
+출력 결과 :  
+어떤 혜택을 원하세요?  
+우수 회원 혜택을 받으실 수 있습니다.  
+일반 회원 혜택을 받으실 수 있습니다.  
+감사합니다.  
