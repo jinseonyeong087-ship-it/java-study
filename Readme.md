@@ -412,8 +412,15 @@ System.out.println(result);
 
 ## 04-02-05
 [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040205.java)  
-![alt text](img/image-28.png)
+![alt text](img/image-28.png)  
+출력 결과  
+![alt text](img/image-30.png) 
+
 
 ## 04-02-06
-[코드작성]()  
-![alt text](img/image-29.png)
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040206.java)  
+![alt text](img/image-29.png)  
+출력 결과  
+![alt text](img/image-31.png)
+  
+## 04-02-07
