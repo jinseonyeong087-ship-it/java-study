@@ -411,5 +411,9 @@ System.out.println(result);
 - for문은 반드시 3개의 식 for (초기식; 조건식; 증감식) 아니면 에러.
 
 ## 04-02-05
-[코드작성]()  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040205.java)  
 ![alt text](img/image-28.png)
+
+## 04-02-06
+[코드작성]()  
+![alt text](img/image-29.png)
