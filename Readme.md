@@ -353,10 +353,19 @@ System.out.println((x%3 == 2) || (y%2 != 1));
 - ||는 논리 OR 연산자 : 조건1 || 조건2 → 두 조건 중 하나라도 참(true) 이면 전체 결과가 참
 
 ## 03-02-13
-[실행문변경]()   
+[실행문변경](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030213.java)   
 int value = 0;  
 value = value + 10; ------> value += 10;  
 value = value - 10; ------> value -= 10;  
 value = value * 10; ------> value *= 10;  
 value = value / 10; ------> value /= 10;  
 
+## 03-02-14
+[출력결과]()  
+int score = 85;  
+String result = (!(score>90)) ? "가" : "나";  
+System.out.println(result);  
+출력 결과 : 가
+- 점수가 90점보다 크지 않으면 true"  
+  !(score > 90)이 true면 "가"를 선택  
+  !(score > 90)이 false면 "나"를 선택
