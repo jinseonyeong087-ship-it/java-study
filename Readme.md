@@ -398,5 +398,9 @@ System.out.println(result);
 - 반복문의 종류 : for문, while문, do-while문
 
 ## 04-02-02
-[코드작성]()  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040202.java)  
 ![alt text](img/image-24.png)
+
+## 04-02-03
+[코드작성]()  
+![alt text](img/image-26.png)

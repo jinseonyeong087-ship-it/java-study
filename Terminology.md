@@ -78,3 +78,6 @@ Java 언어에서 이미 특정 의미/용도로 정해진 단어 (class, public
   - 조건식 → true 또는 false로 평가되는 식  
     값1 → 조건이 참일 때 선택되는 값  
     값2 → 조건이 거짓일 때 선택되는 값
+
+## 반복문
+![alt text](img/image-25.png)
