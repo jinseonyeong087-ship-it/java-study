@@ -85,6 +85,9 @@
 ![alt text](img/image-38.png)
 
 ## 05-02-03
-- [코드실행]()  
+- [코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex050203.java)  
 ![alt text](img/image-39.png)
 
+## 05-02-04
+- [코드작성]()  
+![alt text](img/image-40.png)
