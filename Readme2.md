@@ -79,3 +79,12 @@
     };  
     System.out.println(matrix2[1][2]); // 6
     ```
+
+## 05-02-02
+- 배열의 기본 초기값 : 자바가 자동으로 기본값을 채워준다.  
+![alt text](img/image-38.png)
+
+## 05-02-03
+- [코드실행]()  
+![alt text](img/image-39.png)
+
