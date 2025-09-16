@@ -40,19 +40,26 @@
     ```int[] arr = new int[3];             // int의 기본값은 0 → [0, 0, 0]  ```
     ![alt text](img/image-37.png)
 
-  2. 생성과 동시에 값 넣기  
+  - 생성과 동시에 값 넣기  
+    ```
     int[] arr = new int[] {10, 20, 30};  // new + 초기화  
     int[] arr2 = {10, 20, 30};           // new 생략 가능  
+    ```
 
-  3. 나중에 할당  
+  - 나중에 할당 
+    ``` 
     int[] arr;  
     arr = new int[5];  // 5칸짜리 배열 나중에 생성
+    ```
 
-  4. 값 접근 & 변경  
+  - 값 접근 & 변경  
+    ```
     arr[0] = 100;                 // 첫 번째 요소에 100 저장  
     System.out.println(arr[0]);   // 첫 번째 요소 출력  
+    ```
 
-  5. 배열 순회 (for문, 향상된 for문)  
+  - 배열 순회 (for문, 향상된 for문)  
+    ```
     for (int i = 0; i < arr.length; i++) {  
     System.out.println("arr[" + i + "] = " + arr[i]);  
     }  
@@ -60,8 +67,10 @@
      for (int value : arr) {  
     System.out.println(value);  
     }   
+    ```
 
-  6. 다차원 배열 생성  
+  - 다차원 배열 생성  
+    ```
     // 2행 3열 배열  
     int[][] matrix = new int[2][3];  
     int[][] matrix2 = {  
@@ -69,3 +78,4 @@
     {4, 5, 6}  
     };  
     System.out.println(matrix2[1][2]); // 6
+    ```
