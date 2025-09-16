@@ -88,8 +88,8 @@ System.out.println(v1);
   -char var = 65;  
   -double var = 100.0;
 
-## [02-02-03](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020203.java)
-- 코드 실행 시 콘솔에 출력되는 내용  
+## 02-02-03
+- [코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020203.java)  
 ![alt text](img/image-1.png)  
 ![alt text](img/image-2.png)
 
@@ -97,8 +97,8 @@ System.out.println(v1);
 - 컴파일 에러 발생  
 double value = 2e-350;   ------->error : 허용범위를 벗어남(double이 허용하는 소수점 이하 자리는 15자리 정도)
 
-## [02-02-05](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020205.java)
-- 코드 실행 시 콘솔에 출력되는 내용  
+## 02-02-05
+- [코드실행] (https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020205.java)  
 ![alt text](img/image-4.png)  
 ![alt text](img/image-5.png)
 
@@ -144,7 +144,7 @@ char c2 = c1 + 1;         ------->error : char는 연산시 int로 변환
 System.out.println(c2);  
 
 ## 02-03-06
-[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020306.java)  
+- [연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020306.java)  
 int x = 5;  
 int y = 2;  
 int result = x / y;  
@@ -152,7 +152,7 @@ System.out.println(result);
 출력 결과 : 2
 
 ## 02-03-07
-[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020307.java)  
+- [연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020307.java)  
 int x = 5;  
 int y = 2;  
 double result = (int)x / (double)y;  
@@ -160,14 +160,14 @@ System.out.println(result);
 출력 결과 : 2.5
 
 ## 02-03-08
-[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020308.java)  
+- [연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020308.java)  
 double var1 = 3.5;  
 double var2 = 2.7;  
 int result = (int)(var1 + var2);  
 출력 결과 : 6 
 
 ## 02-03-09
-[연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020309.java)   
+- [연산](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020309.java)   
 long var1 = 2L;  
 float var2 = 1.8f;  
 double var3 = 2.5;  
@@ -180,7 +180,7 @@ System.out.println(result);
 소수점 포함 문자열 → Double.parseDouble, Float.parseFloat 등
 
 ## 02-03-10
-[코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020310.java)  
+- [코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020310.java)  
 String str1 = 2 + 3 + "";  
 String str2 = 2 + "" + 3;  
 String str3 = "" + 2 + 3;  
@@ -195,7 +195,7 @@ System.out.println(str3);
 문자열 + (숫자든 뭐든) → 문자열 결합
 
 ## 02-03-11
-[타입변환](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020311.java)   
+- [타입변환](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020311.java)   
 byte value1 = Byte.parseByte("10");  
 int value2 = Integer.parseInt("1000");  
 float value3 = Float.parseFloat("20.5");  
@@ -203,7 +203,7 @@ double value4 = Double.parseDouble("3.14159");
 - 문자열을 기본 타입으로 변환. 변환 시 변수 중복 선언으로 인한 에러로 변수 변경
 
 ## 02-04-01
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020401.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020401.java)  
 String name = "김자바";  
 int age = 25;  
 String tel1 ="010", tel2 = "123", tel3 = "4567";  
@@ -214,7 +214,7 @@ System.out.printf("\n전화: %s-%s-%s", tel1, tel2, tel3);
 -  형식 문자열을 사용한다면 System.out.printf 사용
 
 ## 02-04-02
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020402.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020402.java)  
 Scanner scanner = new Scanner(System.in);  
 System.out.print("첫 번째 수: ");  
 String strNum1 = scanner.nextLine();  
@@ -228,7 +228,7 @@ System.out.println("덧셈 결과: " + result);
 - 숫자로 계산하려면 Integer.parseInt 로 문자열 → int 변환
 
 ## 02-04-03
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020403.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020403.java)  
 ![alt text](img/image-10.png)
 
 ## 03-01-01
@@ -246,7 +246,7 @@ System.out.println("덧셈 결과: " + result);
   - 산술(+, -, , /, %) > 비교(<, <=, >, >=, ==, !=) > 논리(&&, ||) > 대입(=) 순으로 우선시 됨. 산술이 먼저 계산되고 그 결과를 비교·논리에서 사용
 
 ## 03-02-01
-[컴파일에러](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030201.java)  
+- [컴파일에러](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030201.java)  
 byte b = 5;  
 b = -b;     --------->error : -(단항 음수) 연산은 정수 승격이 일어나서 byte 값이 int로 바뀜. 오른쪽은 int이고, 왼쪽은 byte → 좁히는 변환이라서 캐스트가 없으면 컴파일 오류  
 int result = 10 / b;  
@@ -254,7 +254,7 @@ System.out.println(result);
 
 
 ## 03-02-02
-[코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030202.java)  
+- [코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030202.java)  
 int x = 10;  
 int y = 20;  
 int z = (++x) + (y--);  
@@ -262,14 +262,14 @@ System.out.println(z);
 출력결과 : 31 
 
 ## 03-02-03
-[코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030203.java)  
+- [코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030203.java)  
 boolean stop = false;  
 while (!stop) {  
 System.out.println("stop");  
 stop = true;}  
 
 ## 03-02-04
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030204.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030204.java)  
 int pencils = 534;
 int student = 30;
 
@@ -282,7 +282,7 @@ int pencilsLeft = (pencils % student);
 System.out.println(pencilsLeft);  
 
 ## 03-02-05
-[출력값오류](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030205.java)  
+- [출력값오류](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030205.java)  
 int var1 = 5;  
 int var2 = 2;  
 double var3 = var1 / var2;  
@@ -293,13 +293,13 @@ System.out.println(var4);
   수정하려면 var1 또는 var2를 더블로 형변환하여 소수점 값을 계산
 
 ## 03-02-06
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030206.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030206.java)  
 int value = 356;  
 System.out.println((value/100)*100);  
 출력결과 : 300
 
 ## 03-02-07
-[출력값오류](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030207.java)  
+- [출력값오류](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030207.java)  
 public static void main(String[] args) {  
 float var1 = 10f;  
 float var2 = var1 / 100;  
@@ -313,7 +313,7 @@ System.out.println("10%가 아닙니다.");}
 
 
 ## 03-02-08
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030208.java)   
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030208.java)   
 int lengthTop = 5;  
 int lengBottom = 10;  
 int height = 7;  
@@ -321,12 +321,12 @@ double area = ((double)(lengthTop+lengBottom)*height)/2;
 System.out.println(area);   
 
 ## 03-02-09
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030209.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030209.java)  
 ![alt text](img/image-11.png)  
 ![alt text](img/image-12.png)
 
 ## 03-02-10
-[코드수정](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030210.java)  
+- [코드수정](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030210.java)  
 int var1 = 10;  
 int var2 = 3;  
 int var3 = 14;  
@@ -338,12 +338,12 @@ System.out.println("원의 넓이: " + var4);
 
 
 ## 03-02-11
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030211.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030211.java)  
 ![alt text](img/image-13.png)   
 ![alt text](img/image-14.png)  
 
 ## 03-02-12
-[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030212.java)  
+- [출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030212.java)  
 int x = 10;  
 int y = 5;  
 System.out.println((x>7) && (y<=5));  
@@ -354,7 +354,7 @@ System.out.println((x%3 == 2) || (y%2 != 1));
 - ||는 논리 OR 연산자 : 조건1 || 조건2 → 두 조건 중 하나라도 참(true) 이면 전체 결과가 참
 
 ## 03-02-13
-[실행문변경](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030213.java)   
+- [실행문변경](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030213.java)   
 int value = 0;  
 value = value + 10; ------> value += 10;  
 value = value - 10; ------> value -= 10;  
@@ -362,7 +362,7 @@ value = value * 10; ------> value *= 10;
 value = value / 10; ------> value /= 10;  
 
 ## 03-02-14
-[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030214.java)  
+- [출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex030214.java)  
 int score = 85;  
 String result = (!(score>90)) ? "가" : "나";  
 System.out.println(result);  
@@ -381,12 +381,12 @@ System.out.println(result);
   - if문의 블록 내부에는 또 다른 if문을 사용할 수 있다.
 
 ## 04-01-03
-[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040103.java)  
+- [출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040103.java)  
 ![alt text](img/image-22.png)  
 출력 결과 : 등급은 B 입니다.
 
 ## 04-01-04
-[출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040104.java)  
+- [출력결과](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040104.java)  
 ![alt text](img/image-23.png)  
 출력 결과 :  
 어떤 혜택을 원하세요?  
@@ -399,31 +399,30 @@ System.out.println(result);
 - 반복문의 종류 : for문, while문, do-while문
 
 ## 04-02-02
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040202.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040202.java)  
 ![alt text](img/image-24.png)
 
 ## 04-02-03
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040203.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040203.java)  
 ![alt text](img/image-26.png)
 
 ## 04-02-04
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040204.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040204.java)  
 ![alt text](img/image-27.png)
 - for문은 반드시 3개의 식 for (초기식; 조건식; 증감식) 아니면 에러.
 
 ## 04-02-05
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040205.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040205.java)  
 ![alt text](img/image-28.png)  
 출력 결과  
 ![alt text](img/image-30.png) 
 
-
 ## 04-02-06
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040206.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040206.java)  
 ![alt text](img/image-29.png)  
 출력 결과  
 ![alt text](img/image-31.png)
   
 ## 04-02-07
-[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040207.java)  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040207.java)  
 ![alt text](img/image-34.png)

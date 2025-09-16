@@ -28,7 +28,7 @@
   - null로 초기화할 수 있음 (아무 객체도 참조하지 않음)
 
 ## 05-01-05
-[코드실행]()  
+[코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex050105.java)  
 ![alt text](img/image-35.png)  
 실행 결과  
 ![alt text](img/image-36.png)
