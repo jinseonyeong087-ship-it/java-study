@@ -2,6 +2,7 @@
 
 ## [용어정리 1](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/Terminology.md)
 
+
 ## 01-01-01
 
 - 소스파일은 사람이 읽을 수 있는 프로그래밍 언어로 작성된 파일. 컴파일러가 해석해야하는 텍스트
