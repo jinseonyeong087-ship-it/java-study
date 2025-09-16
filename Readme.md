@@ -424,5 +424,5 @@ System.out.println(result);
 ![alt text](img/image-31.png)
   
 ## 04-02-07
-[코드작성]()  
+[코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040207.java)  
 ![alt text](img/image-34.png)
