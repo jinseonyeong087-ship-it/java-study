@@ -1,4 +1,4 @@
-# 용어정리
+# 용어정리 1
 ## javac 
  Java Compiler (자바 컴파일러 - .java 소스 파일을 컴파일해서 .class 바이트코드 파일을 만드는 명령어)
 
@@ -47,7 +47,7 @@ Java 언어에서 이미 특정 의미/용도로 정해진 단어 (class, public
   - 업캐스트(upcast): 자식 → 부모 (안전, 자동)
   - 다운캐스트(downcast): 부모 → 자식 (위험, 런타임 검사 필요)
 
-  ## 문자열 비교
+## 문자열 비교
 - 문자열 : String(문자의 불변(immutable) 시퀀스. 한 번 만들면 내용이 바뀌지 않음)
 - 내용 비교는 항상 equals / equalsIgnoreCase.
 - null 가능 변수 비교는 "리터럴".equals(var) 또는 Objects.equals(a,b).
