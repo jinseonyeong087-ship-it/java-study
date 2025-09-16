@@ -98,7 +98,7 @@ System.out.println(v1);
 double value = 2e-350;   ------->error : 허용범위를 벗어남(double이 허용하는 소수점 이하 자리는 15자리 정도)
 
 ## 02-02-05
-- [코드실행] (https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020205.java)  
+- [코드실행](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex020205.java)  
 ![alt text](img/image-4.png)  
 ![alt text](img/image-5.png)
 
