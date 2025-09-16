@@ -99,3 +99,12 @@
 ## 05-02-06
 - [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex050206.java)  
 ![alt text](img/image-42.png)
+
+## 05-03-01
+- 열거 타입
+  - 한정된 상수 집합을 정의할 때 사용하는 특별한 타입
+  - enum 키워드로 선언
+  - 값이 고정되어 있는 경우 (요일, 방향, 상태 등)에 많이 사용
+  - 잘못된 값 대입 시 컴파일 에러
+  - 가독성 좋고 안전
+  - 더하기
