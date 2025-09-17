@@ -426,3 +426,6 @@ System.out.println(result);
 ## 04-02-07
 - [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex040207.java)  
 ![alt text](img/image-34.png)
+
+
+## [혼공자2](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/Readme2.md)  

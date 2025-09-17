@@ -167,3 +167,12 @@
 ## 06-02-03
 - [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex060203.java)  
 ![alt text](img/image-47.png)
+
+## 06-03-01
+- 생성자 : 자바에서 객체를 만들 때 자동으로 호출되는 특별한 메서드
+  ```
+  다른 생성자를 호출하기 위해 this()를 사용할 수 있다.
+  생성자가 선언되지 않으면 컴파일러가 기본 생성자를 추가한다.
+  매개 변수의 수, 타입, 순서가 다른 생성자를 여러 개 선언할 수 있다.
+  ```
+
