@@ -177,5 +177,13 @@
   ```
 
 ## 06-03-02
-- [클래스선언]()  
+- [클래스선언](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex060302.java)  
 ![alt text](img/image-48.png)
+
+## 06-03-03
+- [중복코드제거]()  
+![alt text](img/image-50.png)
+
+## 06-03-04
+- [객체생성]()  
+![alt text](img/image-51.png)
