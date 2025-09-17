@@ -161,5 +161,9 @@
     ```
 
 ## 06-02-02
-- [클래스선언]()  
+- [클래스선언](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/Member.java)   
 ![alt text](img/image-46.png)
+
+## 06-02-03
+- [코드작성]()  
+![alt text](img/image-47.png)
