@@ -165,5 +165,5 @@
 ![alt text](img/image-46.png)
 
 ## 06-02-03
-- [코드작성]()  
+- [코드작성](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex060203.java)  
 ![alt text](img/image-47.png)
