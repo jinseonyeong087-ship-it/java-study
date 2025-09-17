@@ -144,5 +144,22 @@
 ![alt text](img/image-44.png)
 
 ## 06-01-03
-- [예시]()  
+- [예시](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex060103.java)  
 ![alt text](img/image-45.png)
+
+## 06-02-01
+- 필드 : 클래스 블록 안에 선언된 변수
+  - 클래스 안, 메서드 밖에서 선언
+  - 객체의 속성을 나타냄
+  - 객체 외부에서도 접근 가능 (public 이라면!)
+  - 참조 변수.필드이름으로 접근 (m1.name, m2.age)
+  - 자동 초기화 지원
+    ```
+    숫자형 → 0
+    boolean → false
+    참조형 → null
+    ```
+
+## 06-02-02
+- [클래스선언]()  
+![alt text](img/image-46.png)
