@@ -123,6 +123,22 @@
   - name(), ordinal(), values() 같은 메서드로 다양한 정보 확인 가능
 
 ## 05-03-02
-- [열거타입]()
+- [열거타입](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ex050302.java)  
 ![alt text](img/image-43.png)  
 - 열거 타입(enum) 을 선언하는 이유는 단순히 상수를 모아두기 위해서만이 아니라, 코드를 더 안전하고 읽기 좋게 만들고 유지보수하기 위해서
+
+## 06-01-01
+- 클래스(Class) : 객체를 만들기 위한 설계도(청사진, 틀)
+  ```
+  필드(Field) → 객체가 가질 속성 (변수)
+  메서드(Method) → 객체가 할 수 있는 행동 (함수)
+  생성자(Constructor) → 객체를 초기화하는 역할
+  ```
+
+- 객체(Object) : 클래스를 이용해 실제로 만들어낸 실체(Instance)
+  ```
+  클래스를 기반으로 new 키워드를 사용해 메모리에 생성
+  필드에 값을 저장하고, 메서드를 호출해 행동 수행 가능
+  ```
+
+![alt text](img/image-44.png)
