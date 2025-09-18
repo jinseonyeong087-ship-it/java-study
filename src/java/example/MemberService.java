@@ -1,6 +1,6 @@
-package java.example2;
-
 public class MemberService {
+
+    
     String id;
     String password;
 
