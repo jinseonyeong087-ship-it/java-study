@@ -257,7 +257,8 @@ final 필드와 상수는 초기값이 저장되면 값을 변경할 수 없다.
 
 ## 06-05-03
 - [클래스](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/ShopService.java)  
-- [출력](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberService.java)  
+- [출력](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberService.java)
+
 ![alt text](img/image-58.png)  
 
 private static final ShopService instance = new ShopService();
