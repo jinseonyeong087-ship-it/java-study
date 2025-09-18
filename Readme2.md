@@ -208,6 +208,14 @@
   ```
 
 ## 06-04-03
-- [코드작성1](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberService.java)   
-- [코드작성2](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberServiceExample.java)  
+- [클래스](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberService.java)   
+- [출력](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberServiceExample.java)  
 ![alt text](img/image-55.png)
+
+## 06-04-04
+- [클래스]()
+- [출력]()  
+![alt text](img/image-56.png)  
+자바에서는 같은 이름의 메서드를 여러 개 정의할 수 있습니다.  
+조건은 매개변수의 타입, 개수, 순서가 달라야 합니다.  
+이를 메서드 오버로딩이라고 해요.  
