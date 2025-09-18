@@ -208,6 +208,6 @@
   ```
 
 ## 06-04-03
-- [코드작성1]()   
-- [코드작성2]()  
+- [코드작성1](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberService.java)   
+- [코드작성2](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/MemberServiceExample.java)  
 ![alt text](img/image-55.png)
