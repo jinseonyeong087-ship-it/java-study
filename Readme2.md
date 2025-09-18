@@ -270,3 +270,12 @@ private ShopService()
 public static ShopService getInstance()
 → 전역적으로 같은 객체 반환
 
+## 06-06-01
+```
+접근 제한자는 클래스, 필드, 생성자, 메소드의 사용을 제한한다.
+public 접근 제한은 아무런 제한 없이 해당 요소를 사용할 수 있게 한다.
+외부에서 접근하지 못하도록 하려면 private 접근 제한을 해야 한다.
+```
+![alt text](img/image-59.png)
+![alt text](img/image-60.png)
+![alt text](img/image-61.png)
