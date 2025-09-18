@@ -12,4 +12,8 @@ Object 의 equals() 메소드는 == 연산자와 동일하게 번지를 비교�
   - 자바에서 모든 클래스는 java.lang.Object를 상속
   - 명시적으로 extends를 안 써도 자동으로 상속
   - 모든 클래스는 Object의 메소드를 사용할 수 있음
-![alt text](image.png)
+  
+  ![alt text](img/image-62.png)
+  ![alt text](img/image-63.png)
+
+## 11-01-02
