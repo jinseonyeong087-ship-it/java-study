@@ -213,8 +213,8 @@
 ![alt text](img/image-55.png)
 
 ## 06-04-04
-- [클래스]()
-- [출력]()  
+- [클래스](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/Printer.java)
+- [출력](https://github.com/jinseonyeong087-ship-it/java-study/blob/main/src/java/example/PrinterExample.java)  
 ![alt text](img/image-56.png)  
 자바에서는 같은 이름의 메서드를 여러 개 정의할 수 있습니다.  
 조건은 매개변수의 타입, 개수, 순서가 달라야 합니다.  
