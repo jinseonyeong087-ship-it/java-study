@@ -18,6 +18,11 @@ class MemberService extends Service {
     public void login() {
         System.out.println("멤버 로그인");
     }
+
+    public void logout(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'logout'");
+    }
 }
 
 class AService extends MemberService {
