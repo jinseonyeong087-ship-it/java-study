@@ -28,7 +28,7 @@ class MemberService extends Service {
 class AService extends MemberService {
     // MemberService의 login()을 다시 재정의
     @Override
-    public boolean login() {
+    public void login() {
         System.out.println("A 로그인");
     }
 }
