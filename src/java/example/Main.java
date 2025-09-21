@@ -15,7 +15,7 @@ class Service {
 class MemberService extends Service {
     // 부모(Service)의 login()을 재정의(오버라이딩)
     @Override
-    public boolean login() {
+    public void login() {
         System.out.println("멤버 로그인");
     }
 
