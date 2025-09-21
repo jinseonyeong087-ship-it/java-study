@@ -80,4 +80,15 @@ class Car {
         }
     }
 
+    public class Tire {
+    }
+
+    public class Engine {
+    }
+
+    public static Car.Engine Engine() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'Engine'");
+    }
+
 }
