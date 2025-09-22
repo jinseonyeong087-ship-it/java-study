@@ -1,11 +1,11 @@
 // Soundable.java
-// 인터페이스: 소리를 반환하는 sound() 메서드만 규격으로 정의
+// 인터페이스: 소리를 반환하는 sound() 메소드만 규격으로 정의
 public interface Soundable {
     String sound();
 }
 
 // Cat.java
-// Soundable 인터페이스 구현 → 반드시 sound() 메서드를 재정의
+// Soundable 인터페이스 구현 → 반드시 sound() 메소드를 재정의
 class Cat implements Soundable {
     @Override
     public String sound() {
@@ -14,7 +14,7 @@ class Cat implements Soundable {
 }
 
 // Dog.java
-// Soundable 인터페이스 구현 → 반드시 sound() 메서드를 재정의
+// Soundable 인터페이스 구현 → 반드시 sound() 메소드를 재정의
 class Dog implements Soundable {
     @Override
     public String sound() {

@@ -11,12 +11,12 @@ public class ex060103 {
             names.add(name);
         }
 
-        // 새로운 이름 추가 메서드
+        // 새로운 이름 추가 메소드
         void addName(String name) {
             names.add(name);
         }
 
-        // 전체 이름 출력 메서드
+        // 전체 이름 출력 메소드
         void printNames() {
             System.out.println("회원 이름: " + names);
         }

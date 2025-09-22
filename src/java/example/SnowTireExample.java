@@ -10,7 +10,7 @@ public class SnowTireExample {
         //    → Tire 타입으로 보이지만 실제로는 SnowTire 객체가 들어있음
         Tire tire = snowTire;
 
-        // 3. 메서드 호출
+        // 3. 메소드 호출
         snowTire.run(); // 자식 참조 변수 → 자식 run() 실행
         tire.run();     // 부모 참조 변수지만, 실제 객체는 SnowTire → 자식 run() 실행 (다형성)
     }

@@ -5,7 +5,7 @@ public class ThreadExample {
         Thread thread1 = new MovieThread();
         thread1.start();
 
-        Thread thread2 = new Thread(//코드작성);
+        Thread thread2 = new Thread(new MusicRunnable());
         thread2.start();
     }
 }

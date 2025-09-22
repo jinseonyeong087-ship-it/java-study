@@ -1,6 +1,6 @@
 package src2.java.exam04;
 
-public class MovieThread //코드작성{
+public class MovieThread extends Thread {
    @Override
    public void run() {
     for(int i=0;i<3;i++) {

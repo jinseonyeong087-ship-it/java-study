@@ -5,7 +5,7 @@ public class ShopService {
     // 2) 외부에서 new를 못 하도록 생성자 private 처리
     private ShopService() {}
 
-    // 3) 외부에서 사용할 때는 이 메서드로만 접근
+    // 3) 외부에서 사용할 때는 이 메소드로만 접근
     public static ShopService getInstance() {
         return instance;
     }

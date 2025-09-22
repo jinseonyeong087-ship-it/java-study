@@ -50,7 +50,7 @@ public class DecoratorIODeadlockDemo {
         }
     }
 
-    // 파일에서 몇 줄만 읽어보는 메서드(자원은 닫지 않음)
+    // 파일에서 몇 줄만 읽어보는 메소드(자원은 닫지 않음)
     private void readSomeLines(String tag) {
         try {
             for (int i = 0; i < 2; i++) {

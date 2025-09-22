@@ -23,7 +23,7 @@ public class ex060302 {
         //TODO Auto-generated constructor stub
     }
 
-    // 메서드: 정보 출력
+    // 메소드: 정보 출력
     void printInfo() {
         System.out.println("이름: " + name + ", 아이디: " + id);
     }

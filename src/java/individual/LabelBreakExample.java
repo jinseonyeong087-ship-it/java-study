@@ -1,10 +1,10 @@
 public class LabelBreakExample { 
-    // 이 클래스의 이름, 메서드 시그니처, 바이트코드 등은
-    // 👉 Method Area(메서드 영역)에 저장
+    // 이 클래스의 이름, 메소드 시그니처, 바이트코드 등은
+    // 👉 Method Area(메소드 영역)에 저장
 
     public static void main(String[] args) {
-        // main 메서드 호출 시 JVM은
-        // 👉 Stack Area(스택 영역)에 main 메서드의 스택 프레임을 생성
+        // main 메소드 호출 시 JVM은
+        // 👉 Stack Area(스택 영역)에 main 메소드의 스택 프레임을 생성
         // args 참조 변수도 스택 프레임 안에 저장됨
         // 실제 args 배열 객체는 👉 Heap Area(힙)에 생성
 
@@ -15,7 +15,7 @@ public class LabelBreakExample {
             System.out.println("=== " + i + "단 ===");
             // System.out은 PrintStream 타입의 static 필드 → 👉 Method Area에 저장
             // new PrintStream 객체 자체는 👉 Heap Area에 있음
-            // println() 메서드 호출 시 → 스택 프레임의 operand stack 사용
+            // println() 메소드 호출 시 → 스택 프레임의 operand stack 사용
 
             for (int j = 1; j <= 9; j++) {
                 // j 변수도 👉 Stack Area(스택 프레임) 안에 저장
@@ -36,6 +36,6 @@ public class LabelBreakExample {
         }
 
         System.out.println("모든 반복문 종료!");
-        // main 메서드 종료 시 → 스택 프레임 제거, 지역변수(i, j, result)도 사라짐
+        // main 메소드 종료 시 → 스택 프레임 제거, 지역변수(i, j, result)도 사라짐
     }
 }

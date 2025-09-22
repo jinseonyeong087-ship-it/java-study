@@ -14,7 +14,7 @@ public class Student {
         return name;
     }
 
-    // 정적 메서드: 객체 생성 없이도 호출 가능
+    // 정적 메소드: 객체 생성 없이도 호출 가능
     public static int getCount() {
         return count;
     }
